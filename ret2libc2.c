@@ -19,7 +19,8 @@ int main(void) {
     setvbuf(stdin, 0LL, 1, 0LL);
 
     char buf1[100];
-    puts("this is a test");
+    printf("Something surprise here,but I don't think it will work\n");
+    printf("What do you think ?");
     gets(buf1);
     return 0;
 }
