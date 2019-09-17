@@ -13,4 +13,5 @@ char buf[100];
 printf("what do you plan to do?")
 
 gets(buf);
+return 0;
 }
