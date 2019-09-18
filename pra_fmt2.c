@@ -5,6 +5,10 @@ int what_can_i_do() {
     return puts("do nothing");
 }
 
+int getflag() {
+    return puts("finally I get the flag");
+}
+
 int main(void) {
     int (*func)();
     func = &what_can_i_do;
